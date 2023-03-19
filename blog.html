@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questions Answer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="container py-5">
+
+    <!-- Questions1 -->
+<div>
+    <h3> <span class="fw-bold">Questions1 :</span> What's the difference :  map(), forEach(), filter(),find() methods?</h3>
+    <h4> <span class="fw-bold">Answer :</span>.map() executes the same code on every element in an array and returns a new array with the updated elements.</h4> <br>
+    <h4>.forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.</h4>  <br>
+    <h4>.filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.</h4> <br>
+    <h4>.find() is also a search function like the previous but they differ in one small detail — this function returns only one match in an array. If in an array is more than one result, the function will return the first that has matched.</h4>
+</div>
+ 
+ <!-- Questions2  -->
+<div class="mt-5">
+    <h3><span class="fw-bold ">Questions2 :</span>What's the difference : local Storage, session storage, Cookies?</h3> <br>
+    <h4><span class="fw-bold">Answer :</span> Local Storage : It is a web storage method that helps us store data on the client’s computer in the form of key/value pairs in a web browser. The data is stored in local storage for a lifetime unless the user manually deletes it from the browser. It does not expire even when the user closes the window or tab. Instead, the data remains in the browser until and unless the browser's memory is cleared.</h4>  <br>
+    <h4>Session Storage : It is very similar to the local storage. Still, the main difference lies in the lifespan as it persists in the browser until its current tab is on. Once you close the tab or terminate it, the data on session storage also gets lost. We can also set and retrieve its data using setItem() and getItem() methods, respectively, similar to the local storage methods.</h4> <br>
+    <h4>Cookies : An HTTP cookie is a piece of data stored by the user's web browser. Unless otherwise specified, cookies can be created, read, modified and deleted both by JavaScript and from server-side through HTTP headers. </h4> <br>
+</div>
+
+<!-- Questions3 -->
+<div>
+<h3><span class="fw-bold ">Questions3 :</span>What is Event loop ? how does it work ?</h3>
+<h4><span class="fw-bold">Answer :</span>The event loop is a key component of JavaScript's concurrency model that manages the execution of asynchronous code.During the execution of a task, the event loop temporarily halts the execution of other code, but it continues to monitor the task queue for new tasks. Once the current task is completed, the event loop resumes the execution of any other pending tasks in the task queue.</h4>
+</div>
+
+
+<!-- Function Questions -->
+<section class="container mt-5">
+    <h3> <span class="fw-bold ">Function Questions:</span></h3>
+    <h3> <span class="fw-bold">what is the purpose chooseQuiz()? <br></span>
+        The function performs an operation of selecting and answering a quiz.The function first checks if the answer is already in the collection.?and loop the data. Once the identity is found, the answer is updated and changed to the new answer.The function calls another function that will display all the answers collected
+    </h3>
+    <h3>
+      <span class="fw-bold">  what is the purpose quizTimer()? <br></span>
+
+        this function use Countdown the timer of  compleate the quiz .The function takes some parameters.f the parameter is true, the timer will stop. And if the parameter is false, the timer will continue.and final result show click the submit button whatever time you use compleate the submite quiz .The color changes from light red to deep red or red as time displays.The code is used with a quiz test.
+    </h3>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
